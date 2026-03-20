@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+}
+
+a {
+    /* color: white; */
+    text-decoration: none;
+
+}
+
+p {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#d2,
+#d3 {
+    background-color: #000000;
+}
+
+button {
+
+    border-color: white;
+    font: bold;
+    font-size:1em;
+    font-family: gilroy,  arial,  helvetica neue,  sans-serif;
+    border-radius: 9px;
+    height: 9vh;
+    width: 15vw;
+    border: 1px solid black;
+}
+
+.o1 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#i,
+#ii {
+
+    cursor: pointer;
+}
+
+.order {
+    color: #000000;
+}
+
+#ad {
+    height: 25vh;
+    width: 100%;
+}
+
+#footerlinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    padding-top: 2vh;
+}
+
+.links {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    /* border: 2px solid black; */
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+
+.connectionsofp {
+    font-size: 1.2em;
+    color: rgb(59, 57, 57);
+    text-align: left;
+    display: block;
+}
+
+.connections,
+#brandname {
+    width: 15vw;
+    height: 100%;
+    /* border: 1px solid black; */
+
+}
+
+.con4 {
+    width: 20vw;
+}
+
+.playstore {
+    height: 17vh;
+    width: 100%;
+    padding: 2vh;
+    font-size: 1.2em;
+    color: rgb(59, 57, 57);
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+#apple {
+    display: flex;
+    justify-content: left;
+    background-color: #000000;
+    padding-top: 1vh;
+}
+
+.fa-apple,
+.fa-google-play {
+    color: white;
+    font-size: 3em;
+}
+
+#playstore {
+    display: flex;
+    justify-content: left;
+    background-color: #000000;
+    padding-top: 1vh;
+    color: white;
+    width: 13vw;
+}
+
+.hide{
+    cursor: pointer;
+    transition: all 0.3 ease;
+    text-decoration: none;
+    display: block;
+}
+.show-more{
+    border-color: white;
+    font: bold;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    display: block;
+    border-radius: 9px;
+    height: 60px;
+    width: 165px;
+    border: 1px solid black;
+}
+.show-more:hover{
+    transform: translateY(-2px);
+}
+.show-more:active {
+    transform: translateY(0);
+}
+.show-more::after{
+    content: 'Show More';
+}
+.hidden-button{
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction:column ;
+    gap: 15px;
+}
+#check:checked ~ .hidden-button{
+    max-height: 50vh;
+    opacity: 1;
+    margin-top: 2vh;
+}
+.show-more::after{
+    content: 'Show Less';
+}
+#check:checked ~ label.show-more::after{
+    content: 'Show Less';
+}
