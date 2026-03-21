@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     color: #000000;
+    font-family: gilroy,  arial,  helvetica neue,  sans-serif;
 }
 
 a {
@@ -12,7 +13,7 @@ a {
 
 p {
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     text-align: center;
 }
 
@@ -26,7 +27,6 @@ button {
     border-color: white;
     font: bold;
     font-size:1em;
-    font-family: gilroy,  arial,  helvetica neue,  sans-serif;
     border-radius: 9px;
     height: 9vh;
     width: 15vw;
@@ -59,8 +59,7 @@ button {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 60vh;
-    padding-top: 2vh;
+    height: 55vh;
 }
 
 .links {
@@ -72,25 +71,32 @@ button {
     display: flex;
     justify-content: center;
 
-}
 
+}
 .connectionsofp {
-    font-size: 1.2em;
+    font-size: 1em;
     color: rgb(59, 57, 57);
     text-align: left;
     display: block;
 }
 
-.connections,
-#brandname {
-    width: 15vw;
+.connections {
+    width: 12vw;
     height: 100%;
     /* border: 1px solid black; */
+    padding-top: 5vh;
 
 }
 
-.con4 {
-    width: 20vw;
+#brandname{
+    width:20vw;
+    text-align: left;
+    padding-top:5vh;
+    height: 100%;
+    p{
+      font-size: medium; 
+      text-align: left; 
+    }
 }
 
 .playstore {
@@ -102,30 +108,11 @@ button {
     display: flex;
     justify-content: center;
     gap: 1vw;
+    align-items: center;
 }
 
-#apple {
-    display: flex;
-    justify-content: left;
-    background-color: #000000;
-    padding-top: 1vh;
-}
 
-.fa-apple,
-.fa-google-play {
-    color: white;
-    font-size: 3em;
-}
-
-#playstore {
-    display: flex;
-    justify-content: left;
-    background-color: #000000;
-    padding-top: 1vh;
-    color: white;
-    width: 13vw;
-}
-
+/* this part for show more */
 .hide{
     cursor: pointer;
     transition: all 0.3 ease;
@@ -158,7 +145,8 @@ button {
     opacity: 0;
     transition: all 0.5s ease;
     display: flex;
-    flex-direction:column ;
+    /* flex-direction:column ; */
+    /* justify-content: center; */
     gap: 15px;
 }
 #check:checked ~ .hidden-button{
@@ -171,4 +159,40 @@ button {
 }
 #check:checked ~ label.show-more::after{
     content: 'Show Less';
+}
+/* this part for social links */
+.Social-Links{
+    font-weight: 300;
+    font-size: larger;
+}
+.cites{
+    height: 3vh;
+    width: 8vw;
+    border: 1px solid black;
+}
+#cities{
+    border: none;
+    border: 1px solid black;   
+}
+.copyright{
+    text-decoration: none;
+    font-size: 1em;
+    color: gray;
+}
+.sudhuline{
+    height: 1px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: gray;
+}
+.nichta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button{
+    border-radius: 9px;
+    height: 9vh;
+    width: 15vw;
 }
