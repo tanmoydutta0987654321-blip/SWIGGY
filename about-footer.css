@@ -17,11 +17,67 @@ p {
     text-align: center;
 }
 
-#d2,
-#d3 {
+/* App advertisment */
+.applink{
+    height: 40vh;
+    width:100%;
+    border: 1px solid black;
     background-color: #000000;
-}
 
+}
+#element{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+}
+.text>h1{
+    color: white;
+    font-family: gilroy,  arial,  helvetica neue,  sans-serif;
+}
+#element>.picture{
+    height: 39vh;
+    width: 25vw;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#qrpic{
+    height: 80%;
+    width: 100%;
+}
+.text>P{
+    font-size: 1em;
+    padding-top: 20px;
+    text-align: left;
+    color: rgb(188, 177, 177);
+}
+/* location and other info */
+.location{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    border: 1px solid black;
+}
+#location-heading{
+    width: 90%;
+    height: 5vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+#element2{
+    height: 100%;
+    width: 80%;
+    border: 2px dotted black;
+    display: flex;
+    justify-content: center;
+}
+/* .applink> */
 button {
 
     border-color: white;
@@ -32,13 +88,13 @@ button {
     width: 15vw;
     border: 1px solid black;
 }
-
+/* 
 .o1 {
     background-color: white;
     display: flex;
     justify-content: center;
     gap: 20px;
-}
+} */
 
 #i,
 #ii {
