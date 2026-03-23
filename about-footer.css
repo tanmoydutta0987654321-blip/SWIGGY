@@ -57,7 +57,7 @@ p {
 /* location and other info */
 .location{
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -66,22 +66,54 @@ p {
 #location-heading{
     width: 90%;
     height: 5vw;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
+    gap: 10px;
+    align-items: center;
 }
+#headingtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+
+}
+#headingtext::before,#headingtext::after {
+      content: "";
+      flex: 1;
+      border-top: 2px solid #FF5200; /* line color */
+      margin: 0 15px;    
+      width: 50px;          /* spacing between text and line */
+    }
+#headingtext span {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+}
+
 #element2{
     height: 100%;
     width: 80%;
-    border: 2px dotted black;
+    padding-left: 108px;
+}
+#text2>p{
+    margin-top: 10px;
+    font-size: medium;
+    color: rgb(151, 148, 148);
+    text-align: left;
+}
+#righttext{
+    margin-top: 2em;
     display: flex;
     justify-content: center;
+    gap: 14vw;
 }
-#headingtext>h1::before{
-    content:"";
-    width: 50px;
-    background-color: rgb(255, 140, 0);
-    border-radius: 10%;
+#map{
+    height: 300px;
+    width: 26vw;
+    display: flex;
+    justify-content: right;
 }
 button {
 
@@ -93,14 +125,6 @@ button {
     width: 15vw;
     border: 1px solid black;
 }
-/* 
-.o1 {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-} */
-
 #i,
 #ii {
 
