@@ -77,7 +77,12 @@ p {
     display: flex;
     justify-content: center;
 }
-/* .applink> */
+#headingtext>h1::before{
+    content:"";
+    width: 50px;
+    background-color: rgb(255, 140, 0);
+    border-radius: 10%;
+}
 button {
 
     border-color: white;
