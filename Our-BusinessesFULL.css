@@ -1,0 +1,201 @@
+/* element */
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    font-family: gilroy,  arial,  helvetica neue,  sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* App advertisment */
+.applink{
+    height: 40vh;
+    width:100%;
+    border: 1px solid black;
+    background-color: #000000;
+
+}
+#element{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+}
+.text>h1{
+    color: white;
+    font-family: gilroy,  arial,  helvetica neue,  sans-serif;
+}
+#element>.picture{
+    height: 39vh;
+    width: 25vw;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+#qrpic{
+    height: 80%;
+    width: 100%;
+}
+.text>P{
+    font-size: 1em;
+    padding-top: 20px;
+    text-align: left;
+    color: rgb(188, 177, 177);
+}
+#footerlinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+}
+
+.links {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    /* border: 2px solid black; */
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+
+}
+.connectionsofp {
+    font-size: 1em;
+    color: rgb(59, 57, 57);
+    text-align: left;
+    display: block;
+}
+
+.connections {
+    width: 12vw;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding-top: 5vh;
+
+    
+}
+
+#brandname{
+    width:20vw;
+    text-align: left;
+    padding-top:5vh;
+    height: 100%;
+    p{
+      font-size: medium; 
+      text-align: left; 
+    }
+}
+
+.playstore {
+    height: 17vh;
+    width: 100%;
+    padding: 2vh;
+    font-size: 1.2em;
+    color: rgb(59, 57, 57);
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    align-items: center;
+}
+.Social-Links{
+    font-weight: 300;
+    font-size: larger;
+}
+.cites{
+    height: 3vh;
+    width: 8vw;
+    border: 1px solid black;
+}
+#cities{
+    border: none;
+    border: 1px solid black;   
+}
+.copyright{
+    text-decoration: none;
+    font-size: 1em;
+    color: gray;
+}
+.sudhuline{
+    height: 1px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: gray;
+}
+.nichta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button{
+    border-radius: 9px;
+    height: 9vh;
+    width: 15vw;
+}
+/* top navbar */
+.logo {
+    width: 11%;
+    height: 4rem;
+    background-image: url("assets/swiggy-logo_C.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nav_bar{
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    gap: 7%;
+}
+
+.right_portion{
+    width: 77%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+
+.right_child{
+    height: 2rem;
+    width: 17%;
+    text-align: center;
+}
+
+.right_child>a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 200;
+    color: rgb(62, 61, 61);
+    transition: all 0.9s ease;
+}
+.right_child>a:hover{
+    color:#FF5200;
+    font-weight:bolder;
+    border-bottom:2PX solid #FF5200;
+}
+#crn3{
+    width: 27%;
+}
+
+#crn5{
+    width: 20%;
+}
+/* main body */
+.haeding{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted red;
+}
