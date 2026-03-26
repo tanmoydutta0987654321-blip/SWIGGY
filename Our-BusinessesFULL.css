@@ -151,10 +151,14 @@ a{
 .nav_bar{
     height: 9rem;
     width: 100%;
+    position: sticky;
+    top:0;
     display: flex;
     align-items: center;
     padding-left: 2%;
     gap: 7%;
+    background-color: white;
+
 }
 
 .right_portion{
@@ -191,6 +195,7 @@ a{
     width: 20%;
 }
 /* main body */
+
 .haeding{
     height: 10vh;
     width: 100%;
@@ -198,4 +203,55 @@ a{
     justify-content: center;
     align-items: center;
     border: 2px dotted red;
+}
+
+.boxset1{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(249, 240, 228);
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boxset2{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(249, 240, 228);
+    display: grid;
+    grid-template-columns: 250px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.containt{
+    height: 400px;
+    width: 350px;
+    background-color: beige;
+    border: 2px dotted red;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#con-head{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-image: url("https://www.swiggy.com/corporate/wp-content/uploads/2024/10/Resto-Comp_TB.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 75px;
+    bottom: 65px;
+    z-index: 4;
+}
+.containt>h2{
+    text-align: center;
+}
+.containt>p{
+    text-align: center;
 }
