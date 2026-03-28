@@ -204,11 +204,14 @@ a{
     align-items: center;
     border: 2px dotted red;
 }
-
+.box{
+    /* display: flex;
+    justify-content: center; */
+}
 .boxset1{
     height: 500px;
     width: 100%;
-    background-color: rgb(249, 240, 228);
+    background-color: white;
     display: grid;
     grid-template-columns: repeat(3,350px);
     gap: 50px;
@@ -220,7 +223,7 @@ a{
 .boxset2{
     height: 500px;
     width: 100%;
-    background-color: rgb(249, 240, 228);
+    background-color: white;
     display: grid;
     grid-template-columns: 250px;
     gap: 50px;
@@ -230,7 +233,7 @@ a{
 .containt{
     height: 400px;
     width: 350px;
-    background-color: beige;
+    background-color: white;
     border: 2px dotted red;
     border-radius: 15%;
     display: flex;
@@ -240,8 +243,8 @@ a{
 #con-head{
     height: 100px;
     width: 100px;
-    border: 1px solid black;
-    background-image: url("https://www.swiggy.com/corporate/wp-content/uploads/2024/10/Resto-Comp_TB.webp");
+    /* border: 1px solid black; */
+    /* background-image: url(""); */
     background-size: contain;
     box-shadow: 0px 0px 3rem orangered;
     background-repeat: no-repeat;
